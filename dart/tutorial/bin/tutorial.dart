@@ -1,6 +1,9 @@
 import 'package:tutorial/tutorial.dart' as tutorial;
 
 void main() {
+  // Hello
+  print('Hello, world!');
+
   // Variáveis
   double numero = 780e6;
   int idade = 0x000011;
@@ -10,4 +13,8 @@ void main() {
   idade = 17;
   print(idade);
   print(altura);
+  bool chovendo = true;
+  print(chovendo);
+  bool compara = (idade == altura);
+  print(compara);
 }
