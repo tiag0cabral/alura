@@ -17,4 +17,7 @@ void main() {
   print(chovendo);
   bool compara = (idade == altura);
   print(compara);
+  String nome = 'Ronaldo ';
+  String sobrenome = 'Faria';
+  print('Meu nome é $nome' + sobrenome);
 }
