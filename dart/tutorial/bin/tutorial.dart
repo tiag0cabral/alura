@@ -19,5 +19,10 @@ void main() {
   print(compara);
   String nome = 'Ronaldo ';
   String sobrenome = 'Faria';
-  print('Meu nome é $nome' + sobrenome);
+  print("Meu nome é $nome" + sobrenome); // Aspas duplas também funcionam
+
+  // Type Casting
+  String string = '123';
+  int integer = int.parse(string);
+  print(integer + 2);
 }
