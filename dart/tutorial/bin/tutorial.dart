@@ -54,4 +54,9 @@ void main() {
     maiorDeIdade = false;
     print('Maior de idade: $maiorDeIdade');
   }
+
+  // Repetições
+  for (int i = 1; i <= 5; i++) {
+    print('Volta $i');
+  }
 }
