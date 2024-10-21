@@ -27,8 +27,11 @@ void main() {
   print(integer + 2);
 
   // Listas
-  List<String> nomes =['João', 'Paula', 'Gabriel', 'Lucas'];
+  List<String> nomes = ['João', 'Paula', 'Gabriel', 'Lucas'];
   print(nomes);
   print(nomes[2]);
   print(nomes.length);
+  List<dynamic> pessoa = ['Marcos', 17, 1.75, true];
+  print(pessoa);
+  print('Eu sou o ${pessoa[0]}');
 }
