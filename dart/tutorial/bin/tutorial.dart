@@ -59,4 +59,14 @@ void main() {
   for (int i = 1; i <= 5; i++) {
     print('Volta $i');
   }
+  int energia = 100;
+  while (energia > 0) {
+    print('Energia: $energia');
+    energia = energia - 10;
+  }
+  energia = 100;
+  do {
+    print('Energia: $energia');
+    energia = energia - 10;
+  } while (energia > 0);
 }
