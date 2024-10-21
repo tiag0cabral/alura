@@ -25,4 +25,10 @@ void main() {
   String string = '123';
   int integer = int.parse(string);
   print(integer + 2);
+
+  // Listas
+  List<String> nomes =['João', 'Paula', 'Gabriel', 'Lucas'];
+  print(nomes);
+  print(nomes[2]);
+  print(nomes.length);
 }
