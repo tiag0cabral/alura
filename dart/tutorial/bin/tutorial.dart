@@ -31,7 +31,17 @@ void main() {
   print(nomes);
   print(nomes[2]);
   print(nomes.length);
-  List<dynamic> pessoa = ['Marcos', 17, 1.75, true];
+  List<dynamic> pessoa = ['Marcos', 34, 1.75, true];
   print(pessoa);
   print('Eu sou o ${pessoa[0]}');
+  pessoa = [nome, idade, altura];
+  print(pessoa);
+
+  // Var, Const e Final
+  const int constExample = 8;
+  final String finalExample;
+  finalExample = 'Final'; // Depois de inicializado, não é mais possível alterar
+  print('$constExample, $finalExample');
+  var varExample = 'Exemplo'; // Define variáveis de forma indireta
+  print(varExample);
 }
