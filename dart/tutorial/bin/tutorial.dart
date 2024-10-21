@@ -44,4 +44,14 @@ void main() {
   print('$constExample, $finalExample');
   var varExample = 'Exemplo'; // Define variáveis de forma indireta
   print(varExample);
+
+  // If e Else
+  bool maiorDeIdade;
+  if (idade >= 18) {
+    maiorDeIdade = true;
+    print('Maior de idade: $maiorDeIdade');
+  } else {
+    maiorDeIdade = false;
+    print('Maior de idade: $maiorDeIdade');
+  }
 }
