@@ -95,5 +95,10 @@ void main() {
   }
 
   // TODO: Revisar o aprendizado
+
   /// Comentário de documentação
+
+  /**
+   * Comentário de documentação
+   * **/
 }
