@@ -69,4 +69,28 @@ void main() {
     print('Energia: $energia');
     energia = energia - 10;
   } while (energia > 0);
+
+  // Switch
+  String mencao = 'B';
+  switch (mencao) {
+    case 'A':
+      {
+        print('Aprovado');
+      }
+      break;
+    case 'B':
+      {
+        print('Recuperação');
+      }
+      break;
+    case 'C':
+      {
+        print('Reprovado');
+      }
+      break;
+    default:
+      {
+        print('Menção inválida!');
+      }
+  }
 }
